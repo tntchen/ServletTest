@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
-  <servlet>
+<!--   <servlet>
     <description></description>
     <display-name>HelloWorld</display-name>
     <servlet-name>HelloWorld</servlet-name>
@@ -88,7 +88,7 @@
   <filter-mapping>
     <filter-name>LogFilter</filter-name>
     <url-pattern>/Demo4Filter</url-pattern>
-  </filter-mapping>
+  </filter-mapping> -->
   <servlet>
     <description></description>
     <display-name>ErrorHandler</display-name>
@@ -128,5 +128,15 @@
   <servlet-mapping>
     <servlet-name>DeleteCookies</servlet-name>
     <url-pattern>/DeleteCookies</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SessionTrack</display-name>
+    <servlet-name>SessionTrack</servlet-name>
+    <servlet-class>com.runoob.session.SessionTrack</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SessionTrack</servlet-name>
+    <url-pattern>/SessionTrack</url-pattern>
   </servlet-mapping>
 </web-app>

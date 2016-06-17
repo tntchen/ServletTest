@@ -27,5 +27,8 @@
 	<br>
 	<a href="${pageContext.request.contextPath }/DeleteCookies">删除cookie演示</a>
 	<br>
+	<h4>session</h4>
+	<a href="${pageContext.request.contextPath }/SessionTrack">跟踪session实例</a>
+	<br>
 </body>
 </html>
